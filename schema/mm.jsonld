@@ -2,13 +2,13 @@
 	"@context": {
 		"mm": "https://github.com/SUNET/metadata-manifests",
 		"dct": "http://purl.org/dc/terms/",
-		"identifier": { "@id": "dct:identifier" },
+		"identifier": { "@id": "dct:identifier", "@container": "@set" },
 		"manifest": { "@id": "mm:manifest", "@type": "@id" },
 		"schema": { "@id": "mm:schema", "@type": "@id" },
 		"publisher": { "@id": "dct:publisher" },
-		"creator": { "@id": "dct:creator" },
-		"rightsHolder": { "@id": "dct:rightsHolder" },
+		"creator": { "@id": "dct:creator", "@container": "@set" },
+		"rightsHolder": { "@id": "dct:rightsHolder" }
 	},
 	"@id": "https://github.com/SUNET/metadata-manifests/mm.jsonld",
-	"publisher": "Swedish University Network (SUNET)",
+	"publisher": "Swedish University Network (SUNET)"
 }

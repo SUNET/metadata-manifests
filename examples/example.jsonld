@@ -5,17 +5,13 @@
   "@base": "https://datastore.example.edu/datasets/3f2a775e-f33a-461e-a49c-b9450c7da4",
   "@id": "https://datastore.example.edu/datasets/3f2a775e-f33a-461e-a49c-b9450c7da4",
   "mm:publisher": "Pendylprojektet @ Example EDU",
-  "mm:creator": "Professor Kalkyl <kalkyl@tintin.edu>",
-  "mm:identifier": "3f2a775e-f33a-461e-a49c-b9450c7da4",
+  "mm:creator": ["kalkyl@example.edu"],
+  "mm:identifier": ["3f2a775e-f33a-461e-a49c-b9450c7da4"],
   "mm:rightsHolder": "example.edu",
   "mm:manifest": [
     {
-      "@id":  "META-DATA/dc.xml",
+      "@id":  "https://example.edu/getMetadata?bucket=pendylprojektet&file=dc.xml",
       "mm:schema": "dct"
-    },
-    {
-      "@id": "META-DATA/snd.xml",
-      "mm:schema": "https://snd.gu.se/NS"
     }
   ]
 }
